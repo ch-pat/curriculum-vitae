@@ -1,0 +1,175 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
+                                    % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+
+\sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+\usepackage{marvosym}
+\usepackage{fontawesome5}
+
+\begin{document}
+
+\header{Patryk }{Choma}           % Your name
+\lastupdated
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside}
+%
+\section{contact}
+Via Pasquale II 53
+00168, Rome
+Italy
+~
+{\Telefon} 346 392 4445 \\(\textbf{book call via eMail})
+~
+{\Email} patryk.choma
+@gmail.com
+%
+\section{web}
+\faIcon{globe} \href{https://ch-pat.github.io/}{\underline{website}}
+~
+\faIcon{linkedin} \href{https://www.linkedin.com/in/p-choma/}{\underline{LinkedIn}}
+~
+\faIcon{github} \href{https://github.com/ch-pat}{\underline{GitHub}}
+%
+\section{languages}
+\textbf{Italian} mother tongue
+\textbf{English} high
+%
+\section{programming}
+\textbf{Python}
+Node.js
+Java
+Go
+%
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+  \vspace{-0.4cm}
+\textbf{Git}, bash/terminal, SQL, HTML, CSS, Python, Java, Go, Javascript, Node.js, Selenium, Excel, Android, Linux, Windows, Google Cloud Platform.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2022--Now}
+{NTT Data}
+{Rome, Italy}
+{\jobtitle{Software Developer Engineer}\\
+Work on Google cloud functions that fetch data from a Spanner db, written with express API framework and unit tested in nodejs; integration tests with python Behave library for BDD
+}
+%------------------------------------------------
+\entry
+{2021--2022}
+{Ericsson}
+{Rome, Italy}
+{\jobtitle{VMWare Operation Engineer}\\
+Managed network configurations and troubleshooted issues within the VMWare cloud stack.}
+%------------------------------------------------
+\entry 
+  {2020--2021}
+  {Freelancing}
+  {Rome, Italy}
+  {\jobtitle{Freelance Developer}\\
+  Commissioned work on two python desktop apps with simple UIs:
+  \begin{itemize}
+      \item Interface for Synology NAS to handle file upload, user creation, notification and receipt confirmation.
+      \item User friendly CRUD interface for modifying Excel files using Pandas.
+  \end{itemize}
+}
+%------------------------------------------------
+\entry
+  {2018--2021}
+  {Amministrazioni Martellucci}
+  {Rome, Italy}
+  {\jobtitle{Accounting and IT support}\\
+  Managed, tracked and documented the accounting. Improved workflow with excel worksheets and python scripts.
+  }
+%------------------------------------------------
+\entry
+  {2010--2020}
+  {Tuition}
+  {Rome, Italy}
+  {\jobtitle{Private tutor}\\
+    Math and English language tuition lessons. Funded my studies, taught me patience and how to teach others.
+  }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2020--Now}
+{Master's Degree in Computer Science}
+{Sapienza Università di Roma | Rome, Italy}
+{Continuing my CS studies. Courses are mostly focused on: 
+\begin{itemize}
+    \item Data Science, Machine Learning and AI
+    \item Computer Vision and Computer Graphics
+    \item Cloud Computing and Big Data
+\end{itemize}
+}
+\entry
+{2016--2020}
+{Bachelor's Degree in Computer Science}
+{Sapienza Università di Roma | Rome, Italy}
+{I learned all CS fundamentals, such as:
+\begin{itemize}
+    \item Algorithms and Data Structures
+    \item Relational Database Design
+    \item Object Oriented Programming
+\end{itemize}
+My thesis was based on my work on a new API for the SeismoCloud project, which queries a MySQL database, was written in Go and deployed using Docker.
+}
+{\vspace{-0.6cm}}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	SOFT SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Soft Skills}
+  \vspace{-0.4cm}
+Listening, 
+Succinct Writing,
+Adaptability,
+Patience,
+Desire to learn,
+Logical thinking,
+Problem Solving.
+%----------------------------------------------------------------------------------------
+%		INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-0.6cm}
+\section{Interests}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Professional}
+{- {\normalfont 
+Continue learning and gaining more skills and work on interesting and useful projects. I want to be able to focus on my back-end development skills, but I would enjoy getting the opportunity to become a more full-fledged developer.}}
+{}
+{\vspace{-0.5cm}}
+%------------------------------------------------
+\end{entrylist}
+\end{document}
