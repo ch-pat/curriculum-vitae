@@ -60,7 +60,7 @@
 \newfontfamily\thinfont{Roboto-Thin}[Path=fonts/]
 \newfontfamily\headingfont{RobotoCondensed-Bold}[Path=fonts/]
 
-\defaultfontfeatures{Mapping=tex-text}
+\defaultfontfeatures{Mapping=tex-text, Scale=1.0}
 \setmainfont[Mapping=tex-text, Color=textcolor, Path = fonts/]{Roboto-Light}
 
 \newcommand{\italica}[1]{%
